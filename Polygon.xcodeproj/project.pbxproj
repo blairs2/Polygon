@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8EF6023521B7381A00EC5567 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6023421B7381A00EC5567 /* main.cpp */; };
+		8EF6023D21B7387100EC5567 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6023C21B7387100EC5567 /* Point.cpp */; };
+		8EF6024021B7389B00EC5567 /* PolygonList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6023E21B7389B00EC5567 /* PolygonList.cpp */; };
+		8EF6024321B8597700EC5567 /* Polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6024221B8597700EC5567 /* Polygon.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		8EF6023121B7381A00EC5567 /* Polygon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Polygon; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF6023421B7381A00EC5567 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8EF6023B21B7385400EC5567 /* Point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		8EF6023C21B7387100EC5567 /* Point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		8EF6023E21B7389B00EC5567 /* PolygonList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PolygonList.cpp; sourceTree = "<group>"; };
+		8EF6023F21B7389B00EC5567 /* PolygonList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PolygonList.h; sourceTree = "<group>"; };
+		8EF6024121B8595E00EC5567 /* Polygon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Polygon.h; sourceTree = "<group>"; };
+		8EF6024221B8597700EC5567 /* Polygon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Polygon.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				8EF6023421B7381A00EC5567 /* main.cpp */,
+				8EF6023B21B7385400EC5567 /* Point.h */,
+				8EF6023C21B7387100EC5567 /* Point.cpp */,
+				8EF6024121B8595E00EC5567 /* Polygon.h */,
+				8EF6024221B8597700EC5567 /* Polygon.cpp */,
+				8EF6023E21B7389B00EC5567 /* PolygonList.cpp */,
+				8EF6023F21B7389B00EC5567 /* PolygonList.h */,
 			);
 			path = Polygon;
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF6024321B8597700EC5567 /* Polygon.cpp in Sources */,
+				8EF6023D21B7387100EC5567 /* Point.cpp in Sources */,
 				8EF6023521B7381A00EC5567 /* main.cpp in Sources */,
+				8EF6024021B7389B00EC5567 /* PolygonList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
